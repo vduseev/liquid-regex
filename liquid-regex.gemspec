@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "liquid/regex/version"
+require "liquid/regexfilter/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "liquid-regex"
-  spec.version       = Liquid::Regex::VERSION
+  spec.version       = Liquid::RegexFilter::VERSION
   spec.authors       = ["vduseev"]
   spec.email         = ["vagiz.d@gmail.com"]
 
