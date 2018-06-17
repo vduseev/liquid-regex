@@ -1,5 +1,11 @@
 module Liquid
   module RegexFilter
-    VERSION = "0.1.0"
+    MAJOR = 0
+    MINOR = 1
+
+    def version
+      patch = `git rev-list --count --first-parent HEAD`
+      "#{MAJOR}.#{MINOR}.#{patch}"
+    end
   end
 end

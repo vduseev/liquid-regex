@@ -5,7 +5,7 @@ require "liquid/regexfilter/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "liquid-regex"
-  spec.version       = Liquid::RegexFilter::VERSION
+  spec.version       = Liquid::RegexFilter::version
   spec.authors       = ["vduseev"]
   spec.email         = ["vagiz.d@gmail.com"]
 
