@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "liquid-regex"
   spec.version       = Liquid::RegexFilter::version
   spec.authors       = ["vduseev"]
-  spec.email         = ["vagiz.d@gmail.com"]
+  spec.email         = ["vagiz@duseev.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
