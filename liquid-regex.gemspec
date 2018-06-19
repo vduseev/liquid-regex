@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["vduseev"]
   spec.email         = ["vagiz@duseev.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Regex filter for Liquid templating language. Retuns regex match or replaces it. Works with Jekyll!"
+  spec.description   = "#{spec.summary}"
+  spec.homepage      = "https://github.com/vduseev/liquid-regex"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
