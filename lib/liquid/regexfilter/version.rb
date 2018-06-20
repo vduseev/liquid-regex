@@ -3,7 +3,7 @@ module Liquid
     MAJOR = 0
     MINOR = 1
 
-    def version
+    def self.version
       patch = `git rev-list --count --first-parent HEAD`
       "#{MAJOR}.#{MINOR}.#{patch}"
     end
